@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="36" passed="36">
+  <reporter-output>
+  </reporter-output>
+  <suite name="InjectorTest" duration-ms="218992" started-at="2015-07-20T06:58:04Z" finished-at="2015-07-20T07:01:43Z">
+    <groups>
+    </groups>
+    <test name="InjectionCertBank" duration-ms="44021" started-at="2015-07-20T06:58:04Z" finished-at="2015-07-20T06:58:48Z">
+      <class name="testng.xmlFileSuite.ConfigureTestNGParameters">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@62fdb4a6]" name="setUpClass" is-config="true" duration-ms="7" started-at="2015-07-20T12:28:04Z" finished-at="2015-07-20T12:28:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="ConfigureTestNGParameters(java.lang.String, java.lang.String)[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@62fdb4a6]" name="ConfigureTestNGParameters" duration-ms="156" started-at="2015-07-20T12:28:04Z" finished-at="2015-07-20T12:28:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[../../xmlFile/xmlFiles/InjectorBankCreateCertH4A5.xml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureTestNGParameters -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@62fdb4a6]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2015-07-20T12:28:04Z" finished-at="2015-07-20T12:28:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@62fdb4a6]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2015-07-20T12:28:04Z" finished-at="2015-07-20T12:28:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@62fdb4a6]" name="tearDownClass" is-config="true" duration-ms="6" started-at="2015-07-20T12:28:04Z" finished-at="2015-07-20T12:28:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testng.xmlFileSuite.ConfigureTestNGParameters -->
+      <class name="testng.Comparison">
+        <test-method status="PASS" signature="initialise()[pri:0, instance:testng.Comparison@16267862]" name="initialise" is-config="true" duration-ms="22" started-at="2015-07-20T12:28:04Z" finished-at="2015-07-20T12:28:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method status="PASS" signature="testComparison()[pri:0, instance:testng.Comparison@16267862]" name="testComparison" duration-ms="15661" started-at="2015-07-20T12:28:33Z" finished-at="2015-07-20T12:28:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testComparison -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:testng.Comparison@16267862]" name="cleanUp" is-config="true" duration-ms="1" started-at="2015-07-20T12:28:48Z" finished-at="2015-07-20T12:28:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- testng.Comparison -->
+      <class name="testng.InjectionTest">
+        <test-method status="PASS" signature="testInjection()[pri:0, instance:testng.InjectionTest@453da22c]" name="testInjection" duration-ms="28014" started-at="2015-07-20T12:28:04Z" finished-at="2015-07-20T12:28:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInjection -->
+      </class> <!-- testng.InjectionTest -->
+    </test> <!-- InjectionCertBank -->
+    <test name="InjectionKeyBank" duration-ms="20049" started-at="2015-07-20T06:58:48Z" finished-at="2015-07-20T06:59:08Z">
+      <class name="testng.xmlFileSuite.ConfigureTestNGParameters">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@19dc67c2]" name="setUpClass" is-config="true" duration-ms="7" started-at="2015-07-20T12:28:48Z" finished-at="2015-07-20T12:28:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="ConfigureTestNGParameters(java.lang.String, java.lang.String)[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@19dc67c2]" name="ConfigureTestNGParameters" duration-ms="1609" started-at="2015-07-20T12:28:48Z" finished-at="2015-07-20T12:28:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[../../xmlFile/xmlFiles/InjectorBankCreateKeyH3A5.xml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureTestNGParameters -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@19dc67c2]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2015-07-20T12:28:50Z" finished-at="2015-07-20T12:28:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@19dc67c2]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2015-07-20T12:28:50Z" finished-at="2015-07-20T12:28:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@19dc67c2]" name="tearDownClass" is-config="true" duration-ms="1" started-at="2015-07-20T12:28:50Z" finished-at="2015-07-20T12:28:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testng.xmlFileSuite.ConfigureTestNGParameters -->
+      <class name="testng.Comparison">
+        <test-method status="PASS" signature="initialise()[pri:0, instance:testng.Comparison@221af3c0]" name="initialise" is-config="true" duration-ms="0" started-at="2015-07-20T12:28:48Z" finished-at="2015-07-20T12:28:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method status="PASS" signature="testComparison()[pri:0, instance:testng.Comparison@221af3c0]" name="testComparison" duration-ms="2012" started-at="2015-07-20T12:29:06Z" finished-at="2015-07-20T12:29:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testComparison -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:testng.Comparison@221af3c0]" name="cleanUp" is-config="true" duration-ms="5" started-at="2015-07-20T12:29:08Z" finished-at="2015-07-20T12:29:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- testng.Comparison -->
+      <class name="testng.InjectionTest">
+        <test-method status="PASS" signature="testInjection()[pri:0, instance:testng.InjectionTest@62bd765]" name="testInjection" duration-ms="16393" started-at="2015-07-20T12:28:50Z" finished-at="2015-07-20T12:29:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInjection -->
+      </class> <!-- testng.InjectionTest -->
+    </test> <!-- InjectionKeyBank -->
+    <test name="InjectionCertCust" duration-ms="17013" started-at="2015-07-20T06:59:08Z" finished-at="2015-07-20T06:59:25Z">
+      <class name="testng.xmlFileSuite.ConfigureTestNGParameters">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@6b1274d2]" name="setUpClass" is-config="true" duration-ms="1" started-at="2015-07-20T12:29:08Z" finished-at="2015-07-20T12:29:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="ConfigureTestNGParameters(java.lang.String, java.lang.String)[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@6b1274d2]" name="ConfigureTestNGParameters" duration-ms="1394" started-at="2015-07-20T12:29:08Z" finished-at="2015-07-20T12:29:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[../../xmlFile/xmlFiles/InjectorCustCreateCertH4A5.xml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureTestNGParameters -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@6b1274d2]" name="tearDownMethod" is-config="true" duration-ms="1" started-at="2015-07-20T12:29:10Z" finished-at="2015-07-20T12:29:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@6b1274d2]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2015-07-20T12:29:10Z" finished-at="2015-07-20T12:29:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@6b1274d2]" name="tearDownClass" is-config="true" duration-ms="4" started-at="2015-07-20T12:29:10Z" finished-at="2015-07-20T12:29:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testng.xmlFileSuite.ConfigureTestNGParameters -->
+      <class name="testng.Comparison">
+        <test-method status="PASS" signature="initialise()[pri:0, instance:testng.Comparison@7bc1a03d]" name="initialise" is-config="true" duration-ms="3" started-at="2015-07-20T12:29:08Z" finished-at="2015-07-20T12:29:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method status="PASS" signature="testComparison()[pri:0, instance:testng.Comparison@7bc1a03d]" name="testComparison" duration-ms="1304" started-at="2015-07-20T12:29:24Z" finished-at="2015-07-20T12:29:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testComparison -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:testng.Comparison@7bc1a03d]" name="cleanUp" is-config="true" duration-ms="1" started-at="2015-07-20T12:29:25Z" finished-at="2015-07-20T12:29:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- testng.Comparison -->
+      <class name="testng.InjectionTest">
+        <test-method status="PASS" signature="testInjection()[pri:0, instance:testng.InjectionTest@70b0b186]" name="testInjection" duration-ms="14279" started-at="2015-07-20T12:29:10Z" finished-at="2015-07-20T12:29:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInjection -->
+      </class> <!-- testng.InjectionTest -->
+    </test> <!-- InjectionCertCust -->
+    <test name="InjectionKeyCust" duration-ms="26641" started-at="2015-07-20T06:59:25Z" finished-at="2015-07-20T06:59:52Z">
+      <class name="testng.xmlFileSuite.ConfigureTestNGParameters">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@6a472554]" name="setUpClass" is-config="true" duration-ms="5" started-at="2015-07-20T12:29:25Z" finished-at="2015-07-20T12:29:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="ConfigureTestNGParameters(java.lang.String, java.lang.String)[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@6a472554]" name="ConfigureTestNGParameters" duration-ms="4157" started-at="2015-07-20T12:29:25Z" finished-at="2015-07-20T12:29:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[../../xmlFile/xmlFiles/InjectorCustCreateKeyH3A5.xml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureTestNGParameters -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@6a472554]" name="tearDownMethod" is-config="true" duration-ms="1" started-at="2015-07-20T12:29:29Z" finished-at="2015-07-20T12:29:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@6a472554]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2015-07-20T12:29:29Z" finished-at="2015-07-20T12:29:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@6a472554]" name="tearDownClass" is-config="true" duration-ms="1" started-at="2015-07-20T12:29:29Z" finished-at="2015-07-20T12:29:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testng.xmlFileSuite.ConfigureTestNGParameters -->
+      <class name="testng.Comparison">
+        <test-method status="PASS" signature="initialise()[pri:0, instance:testng.Comparison@7ff2a664]" name="initialise" is-config="true" duration-ms="1" started-at="2015-07-20T12:29:25Z" finished-at="2015-07-20T12:29:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method status="PASS" signature="testComparison()[pri:0, instance:testng.Comparison@7ff2a664]" name="testComparison" duration-ms="6612" started-at="2015-07-20T12:29:45Z" finished-at="2015-07-20T12:29:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testComparison -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:testng.Comparison@7ff2a664]" name="cleanUp" is-config="true" duration-ms="0" started-at="2015-07-20T12:29:52Z" finished-at="2015-07-20T12:29:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- testng.Comparison -->
+      <class name="testng.InjectionTest">
+        <test-method status="PASS" signature="testInjection()[pri:0, instance:testng.InjectionTest@525b461a]" name="testInjection" duration-ms="15843" started-at="2015-07-20T12:29:29Z" finished-at="2015-07-20T12:29:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInjection -->
+      </class> <!-- testng.InjectionTest -->
+    </test> <!-- InjectionKeyCust -->
+    <test name="InjectionCertUser" duration-ms="11965" started-at="2015-07-20T06:59:52Z" finished-at="2015-07-20T07:00:04Z">
+      <class name="testng.xmlFileSuite.ConfigureTestNGParameters">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@4d339552]" name="setUpClass" is-config="true" duration-ms="2" started-at="2015-07-20T12:29:52Z" finished-at="2015-07-20T12:29:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="ConfigureTestNGParameters(java.lang.String, java.lang.String)[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@4d339552]" name="ConfigureTestNGParameters" duration-ms="1032" started-at="2015-07-20T12:29:52Z" finished-at="2015-07-20T12:29:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[../../xmlFile/xmlFiles/InjectorUserCreateCertH4A5.xml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureTestNGParameters -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@4d339552]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2015-07-20T12:29:53Z" finished-at="2015-07-20T12:29:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@4d339552]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2015-07-20T12:29:53Z" finished-at="2015-07-20T12:29:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@4d339552]" name="tearDownClass" is-config="true" duration-ms="5" started-at="2015-07-20T12:29:53Z" finished-at="2015-07-20T12:29:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testng.xmlFileSuite.ConfigureTestNGParameters -->
+      <class name="testng.Comparison">
+        <test-method status="PASS" signature="initialise()[pri:0, instance:testng.Comparison@f0f2775]" name="initialise" is-config="true" duration-ms="1" started-at="2015-07-20T12:29:52Z" finished-at="2015-07-20T12:29:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method status="PASS" signature="testComparison()[pri:0, instance:testng.Comparison@f0f2775]" name="testComparison" duration-ms="2020" started-at="2015-07-20T12:30:02Z" finished-at="2015-07-20T12:30:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testComparison -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:testng.Comparison@f0f2775]" name="cleanUp" is-config="true" duration-ms="1" started-at="2015-07-20T12:30:04Z" finished-at="2015-07-20T12:30:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- testng.Comparison -->
+      <class name="testng.InjectionTest">
+        <test-method status="PASS" signature="testInjection()[pri:0, instance:testng.InjectionTest@5a4aa2f2]" name="testInjection" duration-ms="8893" started-at="2015-07-20T12:29:53Z" finished-at="2015-07-20T12:30:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInjection -->
+      </class> <!-- testng.InjectionTest -->
+    </test> <!-- InjectionCertUser -->
+    <test name="InjectionKeyUser" duration-ms="14409" started-at="2015-07-20T07:00:04Z" finished-at="2015-07-20T07:00:18Z">
+      <class name="testng.xmlFileSuite.ConfigureTestNGParameters">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@58134517]" name="setUpClass" is-config="true" duration-ms="3" started-at="2015-07-20T12:30:04Z" finished-at="2015-07-20T12:30:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="ConfigureTestNGParameters(java.lang.String, java.lang.String)[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@58134517]" name="ConfigureTestNGParameters" duration-ms="255" started-at="2015-07-20T12:30:04Z" finished-at="2015-07-20T12:30:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[../../xmlFile/xmlFiles/InjectorUserCreateKeyH3A5.xml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureTestNGParameters -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@58134517]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2015-07-20T12:30:04Z" finished-at="2015-07-20T12:30:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@58134517]" name="tearDownMethod" is-config="true" duration-ms="1" started-at="2015-07-20T12:30:04Z" finished-at="2015-07-20T12:30:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@58134517]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2015-07-20T12:30:04Z" finished-at="2015-07-20T12:30:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testng.xmlFileSuite.ConfigureTestNGParameters -->
+      <class name="testng.Comparison">
+        <test-method status="PASS" signature="initialise()[pri:0, instance:testng.Comparison@4450d156]" name="initialise" is-config="true" duration-ms="1" started-at="2015-07-20T12:30:04Z" finished-at="2015-07-20T12:30:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method status="PASS" signature="testComparison()[pri:0, instance:testng.Comparison@4450d156]" name="testComparison" duration-ms="1505" started-at="2015-07-20T12:30:17Z" finished-at="2015-07-20T12:30:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testComparison -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:testng.Comparison@4450d156]" name="cleanUp" is-config="true" duration-ms="3" started-at="2015-07-20T12:30:18Z" finished-at="2015-07-20T12:30:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- testng.Comparison -->
+      <class name="testng.InjectionTest">
+        <test-method status="PASS" signature="testInjection()[pri:0, instance:testng.InjectionTest@4461c7e3]" name="testInjection" duration-ms="12624" started-at="2015-07-20T12:30:04Z" finished-at="2015-07-20T12:30:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInjection -->
+      </class> <!-- testng.InjectionTest -->
+    </test> <!-- InjectionKeyUser -->
+    <test name="InjectionFrenchAccountCert" duration-ms="13829" started-at="2015-07-20T07:00:18Z" finished-at="2015-07-20T07:00:32Z">
+      <class name="testng.xmlFileSuite.ConfigureTestNGParameters">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@731f8236]" name="setUpClass" is-config="true" duration-ms="16" started-at="2015-07-20T12:30:18Z" finished-at="2015-07-20T12:30:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="ConfigureTestNGParameters(java.lang.String, java.lang.String)[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@731f8236]" name="ConfigureTestNGParameters" duration-ms="284" started-at="2015-07-20T12:30:18Z" finished-at="2015-07-20T12:30:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[../../xmlFile/xmlFiles/InjectorFrenchAccountCreateCertH4A5.xml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureTestNGParameters -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@731f8236]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2015-07-20T12:30:19Z" finished-at="2015-07-20T12:30:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@731f8236]" name="tearDownMethod" is-config="true" duration-ms="4" started-at="2015-07-20T12:30:19Z" finished-at="2015-07-20T12:30:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@731f8236]" name="tearDownClass" is-config="true" duration-ms="6" started-at="2015-07-20T12:30:19Z" finished-at="2015-07-20T12:30:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testng.xmlFileSuite.ConfigureTestNGParameters -->
+      <class name="testng.Comparison">
+        <test-method status="PASS" signature="initialise()[pri:0, instance:testng.Comparison@255b53dc]" name="initialise" is-config="true" duration-ms="1" started-at="2015-07-20T12:30:18Z" finished-at="2015-07-20T12:30:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method status="PASS" signature="testComparison()[pri:0, instance:testng.Comparison@255b53dc]" name="testComparison" duration-ms="741" started-at="2015-07-20T12:30:31Z" finished-at="2015-07-20T12:30:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testComparison -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:testng.Comparison@255b53dc]" name="cleanUp" is-config="true" duration-ms="0" started-at="2015-07-20T12:30:32Z" finished-at="2015-07-20T12:30:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- testng.Comparison -->
+      <class name="testng.InjectionTest">
+        <test-method status="PASS" signature="testInjection()[pri:0, instance:testng.InjectionTest@1dd92fe2]" name="testInjection" duration-ms="12772" started-at="2015-07-20T12:30:19Z" finished-at="2015-07-20T12:30:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInjection -->
+      </class> <!-- testng.InjectionTest -->
+    </test> <!-- InjectionFrenchAccountCert -->
+    <test name="InjectionGermanAccountKey" duration-ms="14815" started-at="2015-07-20T07:00:32Z" finished-at="2015-07-20T07:00:47Z">
+      <class name="testng.xmlFileSuite.ConfigureTestNGParameters">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@491666ad]" name="setUpClass" is-config="true" duration-ms="4" started-at="2015-07-20T12:30:32Z" finished-at="2015-07-20T12:30:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="ConfigureTestNGParameters(java.lang.String, java.lang.String)[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@491666ad]" name="ConfigureTestNGParameters" duration-ms="314" started-at="2015-07-20T12:30:32Z" finished-at="2015-07-20T12:30:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[../../xmlFile/xmlFiles/InjectorGermanAccountCreateKeyH3A5.xml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureTestNGParameters -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@491666ad]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2015-07-20T12:30:33Z" finished-at="2015-07-20T12:30:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@491666ad]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2015-07-20T12:30:33Z" finished-at="2015-07-20T12:30:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@491666ad]" name="tearDownClass" is-config="true" duration-ms="2" started-at="2015-07-20T12:30:33Z" finished-at="2015-07-20T12:30:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testng.xmlFileSuite.ConfigureTestNGParameters -->
+      <class name="testng.Comparison">
+        <test-method status="PASS" signature="initialise()[pri:0, instance:testng.Comparison@176d53b2]" name="initialise" is-config="true" duration-ms="0" started-at="2015-07-20T12:30:32Z" finished-at="2015-07-20T12:30:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method status="PASS" signature="testComparison()[pri:0, instance:testng.Comparison@176d53b2]" name="testComparison" duration-ms="1394" started-at="2015-07-20T12:30:46Z" finished-at="2015-07-20T12:30:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testComparison -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:testng.Comparison@176d53b2]" name="cleanUp" is-config="true" duration-ms="3" started-at="2015-07-20T12:30:47Z" finished-at="2015-07-20T12:30:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- testng.Comparison -->
+      <class name="testng.InjectionTest">
+        <test-method status="PASS" signature="testInjection()[pri:0, instance:testng.InjectionTest@971d0d8]" name="testInjection" duration-ms="13083" started-at="2015-07-20T12:30:33Z" finished-at="2015-07-20T12:30:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInjection -->
+      </class> <!-- testng.InjectionTest -->
+    </test> <!-- InjectionGermanAccountKey -->
+    <test name="InjectionFrenchSOT" duration-ms="15814" started-at="2015-07-20T07:00:47Z" finished-at="2015-07-20T07:01:03Z">
+      <class name="testng.xmlFileSuite.ConfigureTestNGParameters">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@62e136d3]" name="setUpClass" is-config="true" duration-ms="10" started-at="2015-07-20T12:30:47Z" finished-at="2015-07-20T12:30:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="ConfigureTestNGParameters(java.lang.String, java.lang.String)[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@62e136d3]" name="ConfigureTestNGParameters" duration-ms="20" started-at="2015-07-20T12:30:47Z" finished-at="2015-07-20T12:30:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[../../xmlFile/xmlFiles/InjectorSendOrderTypeCreate_French.xml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureTestNGParameters -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@62e136d3]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2015-07-20T12:30:47Z" finished-at="2015-07-20T12:30:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@62e136d3]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2015-07-20T12:30:47Z" finished-at="2015-07-20T12:30:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@62e136d3]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2015-07-20T12:30:47Z" finished-at="2015-07-20T12:30:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testng.xmlFileSuite.ConfigureTestNGParameters -->
+      <class name="testng.Comparison">
+        <test-method status="PASS" signature="initialise()[pri:0, instance:testng.Comparison@c8e4bb0]" name="initialise" is-config="true" duration-ms="1" started-at="2015-07-20T12:30:47Z" finished-at="2015-07-20T12:30:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method status="PASS" signature="testComparison()[pri:0, instance:testng.Comparison@c8e4bb0]" name="testComparison" duration-ms="871" started-at="2015-07-20T12:31:02Z" finished-at="2015-07-20T12:31:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testComparison -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:testng.Comparison@c8e4bb0]" name="cleanUp" is-config="true" duration-ms="0" started-at="2015-07-20T12:31:03Z" finished-at="2015-07-20T12:31:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- testng.Comparison -->
+      <class name="testng.InjectionTest">
+        <test-method status="PASS" signature="testInjection()[pri:0, instance:testng.InjectionTest@6279cee3]" name="testInjection" duration-ms="14903" started-at="2015-07-20T12:30:47Z" finished-at="2015-07-20T12:31:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInjection -->
+      </class> <!-- testng.InjectionTest -->
+    </test> <!-- InjectionFrenchSOT -->
+    <test name="InjectionGermanSOT" duration-ms="13494" started-at="2015-07-20T07:01:03Z" finished-at="2015-07-20T07:01:16Z">
+      <class name="testng.xmlFileSuite.ConfigureTestNGParameters">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@770c2e6b]" name="setUpClass" is-config="true" duration-ms="6" started-at="2015-07-20T12:31:03Z" finished-at="2015-07-20T12:31:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="ConfigureTestNGParameters(java.lang.String, java.lang.String)[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@770c2e6b]" name="ConfigureTestNGParameters" duration-ms="126" started-at="2015-07-20T12:31:03Z" finished-at="2015-07-20T12:31:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[../../xmlFile/xmlFiles/InjectorSendOrderTypeCreate_German.xml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureTestNGParameters -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@770c2e6b]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2015-07-20T12:31:03Z" finished-at="2015-07-20T12:31:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@770c2e6b]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2015-07-20T12:31:03Z" finished-at="2015-07-20T12:31:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@770c2e6b]" name="tearDownClass" is-config="true" duration-ms="1" started-at="2015-07-20T12:31:03Z" finished-at="2015-07-20T12:31:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testng.xmlFileSuite.ConfigureTestNGParameters -->
+      <class name="testng.Comparison">
+        <test-method status="PASS" signature="initialise()[pri:0, instance:testng.Comparison@1a052a00]" name="initialise" is-config="true" duration-ms="4" started-at="2015-07-20T12:31:03Z" finished-at="2015-07-20T12:31:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method status="PASS" signature="testComparison()[pri:0, instance:testng.Comparison@1a052a00]" name="testComparison" duration-ms="886" started-at="2015-07-20T12:31:15Z" finished-at="2015-07-20T12:31:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testComparison -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:testng.Comparison@1a052a00]" name="cleanUp" is-config="true" duration-ms="1" started-at="2015-07-20T12:31:16Z" finished-at="2015-07-20T12:31:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- testng.Comparison -->
+      <class name="testng.InjectionTest">
+        <test-method status="PASS" signature="testInjection()[pri:0, instance:testng.InjectionTest@4d826d77]" name="testInjection" duration-ms="12457" started-at="2015-07-20T12:31:03Z" finished-at="2015-07-20T12:31:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInjection -->
+      </class> <!-- testng.InjectionTest -->
+    </test> <!-- InjectionGermanSOT -->
+    <test name="InjectionFrenchFOT" duration-ms="13383" started-at="2015-07-20T07:01:16Z" finished-at="2015-07-20T07:01:30Z">
+      <class name="testng.xmlFileSuite.ConfigureTestNGParameters">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@44a664f2]" name="setUpClass" is-config="true" duration-ms="6" started-at="2015-07-20T12:31:16Z" finished-at="2015-07-20T12:31:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="ConfigureTestNGParameters(java.lang.String, java.lang.String)[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@44a664f2]" name="ConfigureTestNGParameters" duration-ms="23" started-at="2015-07-20T12:31:16Z" finished-at="2015-07-20T12:31:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[../../xmlFile/xmlFiles/InjectorFetchOrderTypeCreate_French.xml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureTestNGParameters -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@44a664f2]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2015-07-20T12:31:16Z" finished-at="2015-07-20T12:31:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@44a664f2]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2015-07-20T12:31:16Z" finished-at="2015-07-20T12:31:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@44a664f2]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2015-07-20T12:31:16Z" finished-at="2015-07-20T12:31:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testng.xmlFileSuite.ConfigureTestNGParameters -->
+      <class name="testng.Comparison">
+        <test-method status="PASS" signature="initialise()[pri:0, instance:testng.Comparison@7f9fcf7f]" name="initialise" is-config="true" duration-ms="1" started-at="2015-07-20T12:31:16Z" finished-at="2015-07-20T12:31:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method status="PASS" signature="testComparison()[pri:0, instance:testng.Comparison@7f9fcf7f]" name="testComparison" duration-ms="935" started-at="2015-07-20T12:31:29Z" finished-at="2015-07-20T12:31:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testComparison -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:testng.Comparison@7f9fcf7f]" name="cleanUp" is-config="true" duration-ms="1" started-at="2015-07-20T12:31:30Z" finished-at="2015-07-20T12:31:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- testng.Comparison -->
+      <class name="testng.InjectionTest">
+        <test-method status="PASS" signature="testInjection()[pri:0, instance:testng.InjectionTest@2357d90a]" name="testInjection" duration-ms="12395" started-at="2015-07-20T12:31:16Z" finished-at="2015-07-20T12:31:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInjection -->
+      </class> <!-- testng.InjectionTest -->
+    </test> <!-- InjectionFrenchFOT -->
+    <test name="InjectionGermanFOT" duration-ms="13434" started-at="2015-07-20T07:01:30Z" finished-at="2015-07-20T07:01:43Z">
+      <class name="testng.xmlFileSuite.ConfigureTestNGParameters">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@4c40b76e]" name="setUpClass" is-config="true" duration-ms="1" started-at="2015-07-20T12:31:30Z" finished-at="2015-07-20T12:31:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="ConfigureTestNGParameters(java.lang.String, java.lang.String)[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@4c40b76e]" name="ConfigureTestNGParameters" duration-ms="32" started-at="2015-07-20T12:31:30Z" finished-at="2015-07-20T12:31:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[../../xmlFile/xmlFiles/InjectorFetchOrderTypeCreate_German.xml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureTestNGParameters -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@4c40b76e]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2015-07-20T12:31:30Z" finished-at="2015-07-20T12:31:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@4c40b76e]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2015-07-20T12:31:30Z" finished-at="2015-07-20T12:31:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testng.xmlFileSuite.ConfigureTestNGParameters@4c40b76e]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2015-07-20T12:31:30Z" finished-at="2015-07-20T12:31:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testng.xmlFileSuite.ConfigureTestNGParameters -->
+      <class name="testng.Comparison">
+        <test-method status="PASS" signature="initialise()[pri:0, instance:testng.Comparison@2ea6137]" name="initialise" is-config="true" duration-ms="0" started-at="2015-07-20T12:31:30Z" finished-at="2015-07-20T12:31:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method status="PASS" signature="testComparison()[pri:0, instance:testng.Comparison@2ea6137]" name="testComparison" duration-ms="928" started-at="2015-07-20T12:31:42Z" finished-at="2015-07-20T12:31:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testComparison -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:testng.Comparison@2ea6137]" name="cleanUp" is-config="true" duration-ms="1" started-at="2015-07-20T12:31:43Z" finished-at="2015-07-20T12:31:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- testng.Comparison -->
+      <class name="testng.InjectionTest">
+        <test-method status="PASS" signature="testInjection()[pri:0, instance:testng.InjectionTest@41ee392b]" name="testInjection" duration-ms="12439" started-at="2015-07-20T12:31:30Z" finished-at="2015-07-20T12:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInjection -->
+      </class> <!-- testng.InjectionTest -->
+    </test> <!-- InjectionGermanFOT -->
+  </suite> <!-- InjectorTest -->
+</testng-results>

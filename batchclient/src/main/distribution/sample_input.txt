@@ -1,0 +1,14 @@
+[TEST_UPDATE]
+testSetPath   = /Root/testsetfolder/testsetfolder1
+testSetName   = testset
+testPath      = /Subject/testfolder/testfolder1
+testInstance  = [1]test
+testStatus    = Failed
+
+
+[abc]
+testSetPath   = /Root/testsetfolder/testsetfolder2
+testSetName   = testset1
+testPath      = /Subject/testfolder/testfolder2
+testInstance  = [2]test
+testStatus    = Passed

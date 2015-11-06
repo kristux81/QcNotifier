@@ -1,0 +1,67 @@
+
+SYNTAX RULES FOR INI INPUT FILE
+--------------------------------
+
+1) File Format : Windows .ini format with similar named multiple sections supported.
+                 Hierarchy :  Section
+                                 |------ Parameter = Value
+                  
+                (A) Section
+                 	- Section name could be any word with numbers included. 
+                 	- It must be enclosed in []
+                 	- The parameters provided in a section are order independent.
+                 	
+                (B) Parameters
+                    - Names are fixed (as provided in sample_input.txt) however case-insensitive
+                    - Use '=' only for assignment of values to parameters.
+                    
+                    - Mandatory Parameters : 
+                        testSetPath,
+					    testSetName,
+					    testPath,
+					    testInstance,
+					    testStatus
+					    
+                   - Optional Parameters :
+                        testVersion,
+                        testMessage,
+                        testBasePath
+						                   
+                   - Custom Parameters :
+                        You can add a custom parameter to your project in QC 
+                        and use the label of that parameter with this tdnotifier module 
+                        to provide a input value
+
+					Example : [TESTRUN]
+								testSetPath   = /Root/testsetfolder/testsetfolder1
+								testSetName   = testset
+								testPath      = /Subject/testfolder/testfolder1
+								testInstance  = [1]test
+								testStatus    = Failed
+                                            
+                (C) Value 
+                    - Do not use "" around values even if there is a 'space' between characters.
+                      QC interprets "" in a special way.
+                    - All multiple occurrences of '=' in any line would be added to value
+
+
+2) Comments : #, // act as comment line if placed at the start of line since the parser is line buffered.
+                         
+			   Example : 
+					# This is a comment line 
+					//This is also a comment line
+
+3) 	Paragraph as input for comments or description fields
+
+				- In order to provide values spanning across multiple lines (paragraph) repeat the key.    
+				  For instance if you want to write a detailed testMessage then it can be put as :
+				  
+				  [TESTRUN]
+				    testSetPath   = /Root/testsetfolder/testsetfolder1
+					testSetName   = testset
+					testInstance  = [1]test
+					testStatus    = Failed
+					testMessage   = My message begins here
+					testMessage   = and it is very interesting to read
+					testMessage   =	and i can go on and on ...
+				  

@@ -1,0 +1,84 @@
+[TESTRUN]
+testSetName=Smoke
+testInstance=InjectorBankCreateCertH4A5
+testStatus=PASSED
+testPath=/Subject/fixed path
+testSetPath=/Root/VA 4.12.1 Automation Runs
+
+[TESTRUN]
+testSetName=Smoke
+testInstance=InjectorBankCreateKeyH3A5
+testStatus=PASSED
+testPath=/Subject/fixed path
+testSetPath=/Root/VA 4.12.1 Automation Runs
+
+[TESTRUN]
+testSetName=Smoke
+testInstance=InjectorCustCreateCertH4A5
+testStatus=PASSED
+testPath=/Subject/fixed path
+testSetPath=/Root/VA 4.12.1 Automation Runs
+
+[TESTRUN]
+testSetName=Smoke
+testInstance=InjectorCustCreateKeyH3A5
+testStatus=PASSED
+testPath=/Subject/fixed path
+testSetPath=/Root/VA 4.12.1 Automation Runs
+
+[TESTRUN]
+testSetName=Smoke
+testInstance=InjectorUserCreateCertH4A5
+testStatus=PASSED
+testPath=/Subject/fixed path
+testSetPath=/Root/VA 4.12.1 Automation Runs
+
+[TESTRUN]
+testSetName=Smoke
+testInstance=InjectorUserCreateKeyH3A5
+testStatus=PASSED
+testPath=/Subject/fixed path
+testSetPath=/Root/VA 4.12.1 Automation Runs
+
+[TESTRUN]
+testSetName=Smoke
+testInstance=InjectorFrenchAccountCreateCertH4A5
+testStatus=PASSED
+testPath=/Subject/fixed path
+testSetPath=/Root/VA 4.12.1 Automation Runs
+
+[TESTRUN]
+testSetName=Smoke
+testInstance=InjectorGermanAccountCreateKeyH3A5
+testStatus=PASSED
+testPath=/Subject/fixed path
+testSetPath=/Root/VA 4.12.1 Automation Runs
+
+[TESTRUN]
+testSetName=Smoke
+testInstance=InjectorSendOrderTypeCreate_French
+testStatus=PASSED
+testPath=/Subject/fixed path
+testSetPath=/Root/VA 4.12.1 Automation Runs
+
+[TESTRUN]
+testSetName=Smoke
+testInstance=InjectorSendOrderTypeCreate_German
+testStatus=PASSED
+testPath=/Subject/fixed path
+testSetPath=/Root/VA 4.12.1 Automation Runs
+
+[TESTRUN]
+testSetName=Smoke
+testInstance=InjectorFetchOrderTypeCreate_French
+testStatus=PASSED
+testPath=/Subject/fixed path
+testSetPath=/Root/VA 4.12.1 Automation Runs
+
+[TESTRUN]
+testSetName=Smoke
+testInstance=InjectorFetchOrderTypeCreate_German
+testStatus=PASSED
+testPath=/Subject/fixed path
+testSetPath=/Root/VA 4.12.1 Automation Runs
+

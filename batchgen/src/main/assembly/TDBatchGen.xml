@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<assembly>
+    <id>BatchGen</id>
+    <formats>
+        <format>zip</format>
+    </formats>
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <includeSiteDirectory>false</includeSiteDirectory>
+    
+    <fileSets>
+		<fileSet>
+			<directory>src/main/distribution</directory>
+			<filtered>true</filtered>
+			<outputDirectory>/</outputDirectory>
+		  <includes>
+            <include>**/*</include>
+          </includes>			
+        </fileSet>
+        <fileSet>
+          <directory>target</directory>
+          <outputDirectory>lib</outputDirectory>
+          <includes>
+            <include>${artifact.artifactId}-${project.version}.jar</include>
+          </includes>
+        </fileSet>
+    </fileSets>
+    
+    <dependencySets>
+        <dependencySet>
+			<outputDirectory>lib</outputDirectory>
+			<useProjectArtifact>false</useProjectArtifact>
+			<useTransitiveDependencies>true</useTransitiveDependencies>         
+        </dependencySet>
+	</dependencySets>
+	
+</assembly>

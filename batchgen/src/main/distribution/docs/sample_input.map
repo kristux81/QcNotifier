@@ -1,0 +1,23 @@
+# #################################################
+#
+# LHS = batchClient input file labels
+# RHS = Constants 
+#           OR 
+#		input file data-holders ( example : XPATH in input xml file )
+#   		OR 
+#		combination of both 
+#
+# #################################################
+
+# Your custom parser for this file. This parser must have mapping logic as well.
+# Provided default parser (connectors.qc.notifier.batchGen.mapper.MappingParser)
+# expects input file as TestNG/JUnit type xml report 
+
+_parser        = connectors.qc.notifier.batchGen.mapper.MappingParser
+
+_testSetPath   = /Root/VA 4.12.1 Automation Runs
+_testSetName   = Smoke
+_testPath      = /Subject/fixed path
+_testInstance  = <XML_DATA>testng-results/suite/test/class/test-method/params/param[@index="0"]/value#23,-4</XML_DATA>
+_testStatus = <XML_DATA>testng-results/suite/test/class[@name="testng.Comparison"]/test-method[starts-with(@signature, "testComparison()")]::status</XML_DATA>
+

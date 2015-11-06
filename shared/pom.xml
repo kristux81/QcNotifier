@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+	<!-- General POM information -->
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>connectors.qc.notifier</groupId>
+	<artifactId>qc-notifier-shared</artifactId>
+	<name>QC-Notifier-Shared</name>
+	<description>TDNotifier Shared</description>
+	<packaging>jar</packaging>
+
+	<!-- Parent information -->
+	<parent>
+		<groupId>connectors.qc.notifier</groupId>
+		<artifactId>qc-notifier</artifactId>
+		<version>1.0.0</version>
+	</parent>
+	
+</project>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+	<!-- General POM information -->
+	<modelVersion>4.0.0</modelVersion>
+    <groupId>connectors.qc.notifier</groupId>
+	<artifactId>qc-notifier-batchclient</artifactId>
+	<version>1.0.0</version>
+	<name>QC-Notifier-BatchClient</name>
+	<description>TDNotifier Batch Client</description>
+	<packaging>jar</packaging>
+	
+	<parent>
+		<groupId>connectors.qc.notifier</groupId>
+	    <artifactId>qc-notifier</artifactId>
+		<version>1.0.0</version>
+	</parent>
+	
+	<build>
+		<plugins>
+
+		    <plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<configuration>
+					<archive>
+						<manifest>
+							<addClasspath>true</addClasspath>
+							<mainClass>connectors.qc.notifier.batchclient.TDBatchClient</mainClass>
+						</manifest>
+					</archive>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<configuration>
+					<finalName>QcNotifier-${project.version}</finalName>
+					<descriptors>
+						<descriptor>src/main/assembly/TDBatchClient.xml</descriptor>
+					</descriptors>
+				</configuration>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<goals>
+							<goal>attached</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
+		</plugins>
+	</build>
+	
+	<dependencies>
+		<!-- REST Client -->
+		<dependency>	
+		    <groupId>connectors.qc.notifier</groupId>
+			<artifactId>qc-notifier-restclient</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		
+		<dependency>	
+		    <groupId>connectors.qc.notifier</groupId>
+	        <artifactId>qc-notifier-shared</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+	</dependencies>
+	 
+</project>
